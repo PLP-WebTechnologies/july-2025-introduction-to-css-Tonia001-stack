@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction To CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navigation">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="hero-section">
+            <h1 class="main-title">CSS GUIDE</h1>
+            <p class="subtitle">Master the fundamentals of Cascading Style Sheets</p>
+        </div>
+
+        <section class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">What is CSS?</h2>
+            </div>
+            <div class="content-card">
+                <p class="content-paragraph">
+                    CSS (Cascading Style Sheets) is a styling language used to control the appearance and layout of web pages. While HTML provides the structure and content of a webpage, CSS defines how that content should look and be positioned on the screen.
+                </p>
+                <p class="content-paragraph">
+                    CSS works by selecting HTML elements and applying visual properties to them, such as colors, fonts, spacing, borders, and positioning. The "cascading" nature means styles can inherit from parent elements and can be overridden by more specific rules, creating a flexible hierarchy of styling decisions.
+                </p>
+            </div>
+            
+            <aside class="tip-box">
+                <h3 class="tip-title">Quick Tip</h3>
+                <p class="tip-content">CSS was first introduced in 1996, but it wasn't until CSS3 that web designers gained access to advanced features like rounded corners, shadows, and animations.</p>
+            </aside>
+        </section>
+
+        <section class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">CSS Syntax and Selectors</h2>
+            </div>
+            <div class="content-card">
+                <p class="content-paragraph">
+                    CSS follows a simple syntax pattern consisting of selectors and declaration blocks. A selector targets specific HTML elements, while the declaration block contains one or more property-value pairs that define the styling rules.
+                </p>
+                <p class="content-paragraph">
+                    Understanding selector specificity is crucial, as it determines which styles take precedence when multiple rules target the same element. This hierarchy ensures predictable styling behavior and allows for flexible, maintainable code architecture.
+                </p>
+            </div>
+
+            <div class="example-box">
+                <h3 class="example-title">CSS Selector Examples</h3>
+                <div class="selector-examples">
+                    <div class="example-item">Element Selector: <code>h1 { }</code></div>
+                    <div class="example-item">Class Selector: <code>.my-class { }</code></div>
+                    <div class="example-item">ID Selector: <code>#my-id { }</code></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="button-demo">
+            <h2 class="section-title">Interactive Elements</h2>
+            <div class="button-container">
+                <button class="btn btn-primary">Primary Button</button>
+                <button class="btn btn-secondary">Secondary Button</button>
+                <button class="btn btn-outline">Outline Button</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p class="footer-text">&copy; 2025 CSS Guide. Demonstrating Box Model and Styling Techniques.</p>
+    </footer>
+</body>
+</html>
